@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: #f1f5f8;
   color: #222;
 }
@@ -17,6 +17,7 @@ body {
   margin: 5rem auto;
   display: grid;
   gap: 2rem;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,6 +31,7 @@ body {
   border-radius: 2rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
 
 .book img {
@@ -37,14 +39,30 @@ body {
   object-fit: cover;
 }
 
-.book h2{
-    margin-top: 1rem;
-    font-size: 1rem;
+.book h2 {
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
-.book h4{
-    color: #617d98;
-    font-size: 0.75rem;
-    margin-top: 0.5rem;
+.book h4 {
+  color: #617d98;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
 
+.ranking {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #c35600;
+  color: #ffff;
+  font-weight: bolder;
+}
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 4rem;
 }
