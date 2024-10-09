@@ -1,7 +1,7 @@
-import img1 from './assets/DockerContainerBook.jpg';
-import img2 from './assets/kubernetes_book.jpg';
-import img3 from './assets/ArtofElectronics.jpg';
-export const books: object = [
+import img1 from './images/DockerContainerBook.jpg';
+import img2 from './images/kubernetes_book.jpg';
+import img3 from './images/ArtofElectronics.jpg';
+export const books = [
   {
     title: 'The Ultimate Docker Container Book',
     author: 'Gabriel N. Schenker',
